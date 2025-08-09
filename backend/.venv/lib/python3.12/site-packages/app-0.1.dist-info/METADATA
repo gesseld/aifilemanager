@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: app
+Version: 0.1
+Requires-Dist: fastapi==0.104.*
+Requires-Dist: sqlalchemy==2.0.*
+Requires-Dist: alembic==1.12.*
+Requires-Dist: pydantic==2.5.*
+Requires-Dist: uvicorn[standard]==0.24.*
+Requires-Dist: asyncpg
+Requires-Dist: psycopg2-binary
+Requires-Dist: python-dotenv
+Dynamic: requires-dist
